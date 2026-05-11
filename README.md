@@ -31,8 +31,6 @@
   </a>
 </p>
 
-[![ReadME](https://img.shields.io/badge/📁_ReadME-Custom_SVG_icons_&_README_templates-84abce?style=for-the-badge&logo=github&logoColor=white)](https://github.com/acheronx0577/ReadME)
-
 <br>
 
  Last Updated on 09/05/2026 02:15:20 UTC
