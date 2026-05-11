@@ -1,36 +1,31 @@
 name: Update repo card
-
 on:
   push:
     branches: [main]
   schedule:
     - cron: '0 * * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   update:
     runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-
       - name: Update SVG with last commit time
         run: |
           COMMIT_DATE=$(git log --format=%cI --perl-regexp --invert-grep --grep="chore: update repo card timestamp" -1)
           NOW=$(date -u +%s)
           COMMIT_TS=$(date -u -d "$COMMIT_DATE" +%s)
           DIFF=$(( (NOW - COMMIT_TS) / 60 ))
-
           DAY=$(date -u -d "$COMMIT_DATE" "+%-d")
           MON=$(date -u -d "$COMMIT_DATE" "+%b")
           YEAR=$(date -u -d "$COMMIT_DATE" "+%Y")
           COMMIT_COUNT=$(git rev-list --count HEAD)
-
           if [ $DIFF -lt 60 ]; then
             AGO="${DIFF} min ago"
           elif [ $DIFF -lt 1440 ]; then
@@ -38,14 +33,12 @@ jobs:
           else
             AGO="$(( DIFF / 1440 )) days ago"
           fi
-
           cp repo-card-template.svg repo-card.svg
           sed -i "s/COMMIT_DAY/${DAY}/g" repo-card.svg
           sed -i "s/COMMIT_MON/${MON}/g" repo-card.svg
           sed -i "s/COMMIT_YEAR/${YEAR}/g" repo-card.svg
           sed -i "s/COMMIT_AGO/${AGO}/g" repo-card.svg
           sed -i "s/COMMIT_COUNT/${COMMIT_COUNT}/g" repo-card.svg
-
       - name: Commit updated SVG
         run: |
           git config user.name "github-actions[bot]"
