@@ -24,7 +24,7 @@
 
 <p align="center">
     <img width="48%" src="https://raw.githubusercontent.com/acheronx0577/ReadME/main/dawda.svg" />
-    <img width="48%" src="https://raw.githubusercontent.com/acheronx0577/ReadME/main/dawda.svg" />
+    <img width="48%" src="https://raw.githubusercontent.com/acheronx0577/ReadME/main/repo-card.svg" />
 </p>
 
 [![ReadME](https://img.shields.io/badge/📁_ReadME-Custom_SVG_icons_&_README_templates-84abce?style=for-the-badge&logo=github&logoColor=white)](https://github.com/acheronx0577/ReadME)
