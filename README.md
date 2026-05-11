@@ -22,8 +22,7 @@
   <img width="48%" src="https://streak-stats.demolab.com/?user=acheronx0577&theme=prussian&hide_border=true&cache_seconds=86400" />
 </p>
 
-<img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=acheronx0577&repo=ReadME&theme=prussian&hide_border=true&cache_seconds=7200" />
-
+[![ReadME](https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=acheronx0577&repo=ReadME&theme=prussian&hide_border=true&cache_seconds=7200)](https://github.com/acheronx0577/ReadME)
 
 [![ReadME](https://img.shields.io/badge/📁_ReadME-Custom_SVG_icons_&_README_templates-84abce?style=for-the-badge&logo=github&logoColor=white)](https://github.com/acheronx0577/ReadME)
 
