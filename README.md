@@ -23,10 +23,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/acheronx0577/ReadME">
+  <a href="https://github.com/acheronx0577/ReadME" style="text-decoration:none">
     <img width="48%" src="https://raw.githubusercontent.com/acheronx0577/ReadME/main/repo-card.svg" />
   </a>
-  <a href="https://github.com/acheronx0577/ReadME">
+  <a href="https://github.com/acheronx0577/ReadME" style="text-decoration:none">
     <img width="48%" src="https://raw.githubusercontent.com/acheronx0577/ReadME/main/repo-card.svg" />
   </a>
 </p>
