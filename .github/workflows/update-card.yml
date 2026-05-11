@@ -17,6 +17,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Update SVG with last commit time
         run: |
@@ -28,6 +29,7 @@ jobs:
           DAY=$(date -u -d "$COMMIT_DATE" "+%-d")
           MON=$(date -u -d "$COMMIT_DATE" "+%b")
           YEAR=$(date -u -d "$COMMIT_DATE" "+%Y")
+          COMMIT_COUNT=$(git rev-list --count HEAD)
 
           if [ $DIFF -lt 60 ]; then
             AGO="${DIFF} min ago"
@@ -42,6 +44,7 @@ jobs:
           sed -i "s/COMMIT_MON/${MON}/g" repo-card.svg
           sed -i "s/COMMIT_YEAR/${YEAR}/g" repo-card.svg
           sed -i "s/COMMIT_AGO/${AGO}/g" repo-card.svg
+          sed -i "s/COMMIT_COUNT/${COMMIT_COUNT}/g" repo-card.svg
 
       - name: Commit updated SVG
         run: |
