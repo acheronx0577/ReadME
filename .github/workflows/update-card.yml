@@ -25,7 +25,9 @@ jobs:
           COMMIT_TS=$(date -u -d "$COMMIT_DATE" +%s)
           DIFF=$(( (NOW - COMMIT_TS) / 60 ))
 
-          DATE_STR=$(date -u -d "$COMMIT_DATE" "+%-d %b %Y")
+          DAY=$(date -u -d "$COMMIT_DATE" "+%-d")
+          MON=$(date -u -d "$COMMIT_DATE" "+%b")
+          YEAR=$(date -u -d "$COMMIT_DATE" "+%Y")
 
           if [ $DIFF -lt 60 ]; then
             AGO="${DIFF} min ago"
@@ -35,8 +37,11 @@ jobs:
             AGO="$(( DIFF / 1440 )) days ago"
           fi
 
-          sed -i "s/COMMIT_DATE/$DATE_STR/g" repo-card.svg
-          sed -i "s/COMMIT_AGO/$AGO/g" repo-card.svg
+          cp repo-card-template.svg repo-card.svg
+          sed -i "s/COMMIT_DAY/${DAY}/g" repo-card.svg
+          sed -i "s/COMMIT_MON/${MON}/g" repo-card.svg
+          sed -i "s/COMMIT_YEAR/${YEAR}/g" repo-card.svg
+          sed -i "s/COMMIT_AGO/${AGO}/g" repo-card.svg
 
       - name: Commit updated SVG
         run: |
