@@ -31,6 +31,10 @@
   </a>
 </p>
 
+ <div align="left">
+  <img src="https://raw.githubusercontent.com/acheronx0577/SVG-Icons-for-MD-Github/refs/heads/main/wakatime-with-typing-v7.svg" />
+</div>
+
 <br>
 
  Last Updated on 09/05/2026 02:15:20 UTC
