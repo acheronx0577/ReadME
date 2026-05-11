@@ -18,5 +18,5 @@
   <text x="336" y="25" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="12" font-weight="400" fill="#6E93B5">Last commit</text>
   <text x="315" y="62" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="28" font-weight="700" fill="#38A0FF">COMMIT_DAY</text>
   <text x="365" y="62" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="28" font-weight="700" fill="#BDDFFF">COMMIT_MONTH</text>
-  <text x="315" y="84" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="12" font-weight="400" fill="#6E93B5">COMMIT_YEAR · COMMIT_AGO</text>
+  <text x="315" y="84" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="12" font-weight="400" fill="#6E93B5">COMMIT_YEAR · 0 min ago</text>
 </svg>
