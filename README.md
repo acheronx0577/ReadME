@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-    <img width="48%" src="https://raw.githubusercontent.com/acheronx0577/ReadME/main/dawda.svg" />
+    <img width="48%" src="https://raw.githubusercontent.com/acheronx0577/ReadME/main/repo-card.svg?v=1" />
     <img width="48%" src="https://raw.githubusercontent.com/acheronx0577/ReadME/main/repo-card.svg?v=1" />
 </p>
 
