@@ -22,10 +22,7 @@
   <img width="48%" src="https://streak-stats.demolab.com/?user=acheronx0577&theme=prussian&hide_border=true&cache_seconds=86400" />
 </p>
 
-<p align="center">
-    <img width="48%" src="https://raw.githubusercontent.com/acheronx0577/ReadME/main/repo-card.svg?v=1" />
-    <img width="48%" src="https://raw.githubusercontent.com/acheronx0577/ReadME/main/repo-card.svg?v=1" />
-</p>
+[![ReadME](https://raw.githubusercontent.com/acheronx0577/ReadME/main/repo-card.svg)](https://github.com/acheronx0577/ReadME)
 
 [![ReadME](https://img.shields.io/badge/📁_ReadME-Custom_SVG_icons_&_README_templates-84abce?style=for-the-badge&logo=github&logoColor=white)](https://github.com/acheronx0577/ReadME)
 
