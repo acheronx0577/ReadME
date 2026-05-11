@@ -16,7 +16,6 @@
     <polyline points="12 6 12 12 16 14"/>
   </svg>
   <text x="336" y="25" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="12" font-weight="400" fill="#6E93B5">Last commit</text>
-  <text x="315" y="62" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="28" font-weight="700" fill="#38A0FF">COMMIT_DAY</text>
-  <text x="365" y="62" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="28" font-weight="700" fill="#BDDFFF">COMMIT_MONTH</text>
-  <text x="315" y="84" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="12" font-weight="400" fill="#6E93B5">COMMIT_YEAR · 0 min ago</text>
+  <text x="315" y="62" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="20" font-weight="700" fill="#BDDFFF">COMMIT_DAY COMMIT_MON COMMIT_YEAR</text>
+  <text x="315" y="84" font-family='"Segoe UI", Ubuntu, sans-serif' font-size="12" font-weight="400" fill="#6E93B5">COMMIT_AGO</text>
 </svg>
