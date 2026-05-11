@@ -23,8 +23,8 @@
 </p>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=acheronx0577&repo=REPO_ONE&theme=prussian&hide_border=true&cache_seconds=7200" />
-  <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=acheronx0577&repo=REPO_TWO&theme=prussian&hide_border=true&cache_seconds=7200" />
+  <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=acheronx0577&repo=ReadME&theme=prussian&hide_border=true&cache_seconds=7200" />
+  <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=acheronx0577&repo=ReadME&theme=prussian&hide_border=true&cache_seconds=7200" />
 </p>
 
  <div align="left">
