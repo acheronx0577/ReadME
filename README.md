@@ -26,9 +26,7 @@
   <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=acheronx0577&repo=ReadME&theme=prussian&hide_border=true&cache_seconds=7200" />
 </p>
 
- <div align="left">
-  <img src="https://raw.githubusercontent.com/acheronx0577/SVG-Icons-for-MD-Github/refs/heads/main/wakatime-with-typing-v7.svg" />
-</div>
+[![ReadME](https://img.shields.io/badge/📁_ReadME-Custom_SVG_icons_&_README_templates-84abce?style=for-the-badge&logo=github&logoColor=white)](https://github.com/acheronx0577/ReadME)
 
 <br>
 
