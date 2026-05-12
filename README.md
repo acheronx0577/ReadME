@@ -10,9 +10,12 @@
   <img align="right" src="https://img.shields.io/badge/Software%20Engineer-172f45?style=for-the-badge&labelColor=172f45&color=84abce" />
 </p>
     
-<video autoplay loop muted playsinline width="100%">
-  <source src="https://github.com/acheronx0577/New-folder--2-/releases/download/v1.0/635.loop.mp4" type="video/mp4">
-</video>
+<a href="https://www.instagram.com/jia_hagi0826/" target="_blank">
+  <img src="https://media.githubusercontent.com/media/acheronx0577/New-folder--2-/refs/heads/main/good.gif?token=BHTD6RU646E2SYB7GWPR5QTKALOYA" alt="Banner by @jia_hagi0826" width="100%" />
+</a>
+<p align="right">
+  <sub>🎨 Banner by <a href="https://www.instagram.com/jia_hagi0826/">@jia_hagi0826</a></sub>
+</p>
 
 <p align="center">
   <img width="48%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=acheronx0577&cache_seconds=7200&layout=compact&theme=prussian&hide_border=true" />
